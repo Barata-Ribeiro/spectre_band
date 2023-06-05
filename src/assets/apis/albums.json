@@ -1,0 +1,116 @@
+{
+  "albums": [
+    {
+      "title": "Whispers of the Night",
+      "release_date": "2012-07-12",
+      "debut_album": true,
+      "songs": [
+        "Shadow's Embrace",
+        "Eternal Darkness",
+        "Silent Scream",
+        "Lost in the Mist",
+        "Crimson Descent"
+      ]
+    },
+    {
+      "title": "Echoes of the Unknown",
+      "release_date": "2013-09-25",
+      "songs": [
+        "Phantom Heart",
+        "Whispered Secrets",
+        "Soulbound",
+        "Fading Shadows",
+        "Veil of Illusions"
+      ]
+    },
+    {
+      "title": "Nocturnal Symphony",
+      "release_date": "2015-05-18",
+      "songs": [
+        "Midnight Serenade",
+        "Wicked Lullaby",
+        "Nightfall Reverie",
+        "Dance of Shadows",
+        "Moonlit Masquerade"
+      ]
+    },
+    {
+      "title": "Crimson Reveries",
+      "release_date": "2016-11-07",
+      "songs": [
+        "Bloodstained Memories",
+        "Scarlet Serenity",
+        "Ember's End",
+        "Ashes of Desire",
+        "Infernal Elegy"
+      ]
+    },
+    {
+      "title": "Eternal Veil",
+      "release_date": "2018-02-20",
+      "songs": [
+        "Beyond the Abyss",
+        "Eyes of the Unknown",
+        "Spectral Dreams",
+        "Echoes of Eternity",
+        "Labyrinth of Despair"
+      ]
+    },
+    {
+      "title": "Shattered Reflections",
+      "release_date": "2019-07-29",
+      "songs": [
+        "Fractured Memories",
+        "Broken Vows",
+        "Mirror's Edge",
+        "Tears of the Phantom",
+        "Fading Echoes"
+      ]
+    },
+    {
+      "title": "Revenant's Call",
+      "release_date": "2020-11-11",
+      "songs": [
+        "Resurrection's Embrace",
+        "Ghosts of Yesterday",
+        "Sanguine Symphony",
+        "Ethereal Whispers",
+        "Winds of Redemption"
+      ]
+    },
+    {
+      "title": "Twilight Enigma",
+      "release_date": "2021-06-04",
+      "songs": [
+        "Dusk's Solace",
+        "Eclipse of the Soul",
+        "Twilight Reverie",
+        "Shadows Unveiled",
+        "Forgotten Melodies"
+      ]
+    },
+    {
+      "title": "Celestial Ascension",
+      "release_date": "2022-01-14",
+      "songs": [
+        "Stellar Serenade",
+        "Elysian Euphoria",
+        "Cosmic Overture",
+        "Astral Dance",
+        "Infinity's Embrace"
+      ]
+    },
+    {
+      "title": "Veins of Fire",
+      "release_date": "2023-04-22",
+      "latest_album": true,
+      "songs": [
+        "Inferno's Fury",
+        "Burning Desire",
+        "Flames of Passion",
+        "Ignite the Night",
+        "Embers of Resilience"
+      ]
+    }
+  ]
+}

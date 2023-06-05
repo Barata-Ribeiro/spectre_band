@@ -1,0 +1,40 @@
+@import url('https://use.typekit.net/hgp8pui.css');
+
+.monarcha-n-md {
+  font-family: 'monarcha', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+}
+.monarcha-b-md {
+  font-family: 'monarcha', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.monarcha-italic-n-md {
+  font-family: 'monarcha', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.monarcha-italic-b-md {
+  font-family: 'monarcha', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sabbathBlack-n-4xl {
+  font-family: 'sabbath-black', serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-style: normal;
+}
+.sabbathBlack-b-4xl {
+  font-family: 'sabbath-black', serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
