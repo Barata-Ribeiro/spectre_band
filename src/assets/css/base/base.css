@@ -1,0 +1,10 @@
+body {
+  max-width: 1440px;
+  font-size: normal !important;
+  margin: 0 auto;
+  background: var(--tuatara-950);
+}
+.container {
+  max-width: 940px !important;
+  margin: 0 auto;
+}
