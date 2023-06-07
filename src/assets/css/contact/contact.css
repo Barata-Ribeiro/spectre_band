@@ -1,0 +1,121 @@
+#contact {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+  padding-bottom: 3.75rem;
+  background-color: var(--tuatara-900);
+}
+
+.contact-title {
+  padding-top: 3.75rem;
+}
+
+.contact-title h1 {
+  font-size: 4.75em;
+  line-height: 1;
+  color: var(--tuatara-50);
+}
+
+.contact-title p {
+  font-size: 1.25em;
+  line-height: 1;
+  color: var(--tuatara-300);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  margin-top: 3.75rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+
+.contact-form::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  clear: both;
+  width: 2px;
+  height: 31.25rem;
+  background-color: var(--scarlet-800);
+  top: -7.5rem;
+  right: -3.125rem;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form textarea {
+  color: var(--tuatara-50);
+  width: 25rem;
+  background-color: var(--tuatara-700);
+  border: 1px solid var(--tuatara-600);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.contact-form input[type='text']::placeholder,
+.contact-form input[type='email']::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--tuatara-400);
+}
+
+.contact-grid input[type='submit'] {
+  font-size: 1.125rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: var(--scarlet-800);
+  padding: 0.75rem 2.25rem;
+  outline: none;
+  border-top: 2px solid var(--scarlet-800);
+  border-bottom: 2px solid var(--scarlet-800);
+  cursor: pointer;
+}
+
+.contact-form input[type='text']:focus,
+.contact-form input[type='email']:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--tuatara-400);
+  box-shadow: 0 0 0 0.2rem rgba(166, 166, 162, 0.25),
+    0 0 0 0.5rem rgba(166, 166, 162, 0.05);
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.contact-grid input[type='submit']:hover {
+  color: var(--scarlet-600);
+  border-top: 2px solid var(--scarlet-600);
+  border-bottom: 2px solid var(--scarlet-600);
+  background-color: var(--tuatara-800);
+}
+
+.contact-address {
+  text-align: right;
+  font-size: 1.25em;
+  line-height: 1;
+  color: var(--tuatara-50);
+}
+
+.contact-address-info li + li {
+  margin-top: 0.875rem;
+}
+
+.contact-address-info li:last-child {
+  margin-top: 1.5rem;
+}
+
+.contact-address-social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3.75rem;
+}
