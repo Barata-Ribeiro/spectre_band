@@ -1,0 +1,46 @@
+#albums {
+  margin-top: 2rem;
+  background-color: var(--scarlet-600);
+}
+
+.albums-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.75em;
+  color: var(--tuatara-50);
+  padding-top: 2rem;
+}
+
+.albums-title p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: var(--tuatara-800);
+}
+
+.albums-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.albums-more-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--tuatara-50);
+}
+
+.albums-more-link::after {
+  display: block;
+  content: '';
+  width: 15rem;
+  height: 2px;
+  background-color: var(--tuatara-50);
+  margin-top: 0.625rem;
+  margin-bottom: 3.75rem;
+}

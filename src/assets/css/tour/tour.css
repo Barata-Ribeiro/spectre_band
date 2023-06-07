@@ -79,7 +79,6 @@
   text-transform: uppercase;
   border-radius: 8px;
   color: var(--scarlet-800);
-  background-color: var(--tuatara-900);
   padding: 0.75rem 3.125rem;
   margin-top: 2rem;
   border-top: 2px solid var(--scarlet-800);
@@ -88,5 +87,7 @@
 
 .tour-button:hover {
   color: var(--scarlet-600);
-  background-color: var(--tuatara-800);
+  border-top: 2px solid var(--scarlet-600);
+  border-bottom: 2px solid var(--scarlet-600);
+  background-color: var(--tuatara-900);
 }
