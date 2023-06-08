@@ -85,8 +85,7 @@
 .contact-form textarea:focus {
   outline: none;
   border-color: var(--tuatara-400);
-  box-shadow: 0 0 0 0.2rem rgba(166, 166, 162, 0.25),
-    0 0 0 0.5rem rgba(166, 166, 162, 0.05);
+  box-shadow: 0 0 0 0.2rem rgba(166, 166, 162, 0.25), 0 0 0 0.5rem rgba(166, 166, 162, 0.05);
   transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
@@ -118,4 +117,16 @@
   align-items: center;
   gap: 2rem;
   margin-top: 3.75rem;
+}
+
+.contact-form-error {
+  display: none;
+  color: var(--scarlet-600);
+}
+
+.form-input-error {
+  outline: none;
+  border-color: var(--scarlet-400);
+  box-shadow: 0 0 0 0.2rem rgba(255, 117, 96, 0.5), 0 0 0 0.5rem rgba(255, 117, 96, 0.1);
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }

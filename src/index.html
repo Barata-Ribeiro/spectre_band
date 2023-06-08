@@ -93,10 +93,13 @@
       <p class="monarcha-italic-normal">fear not child, talk to us!</p>
     </div>
     <div class="container contact-grid">
-      <form class="contact-form monarcha-normal">
-        <label for="name"><input type="text" id="name" name="name" placeholder="Name" required /></label>
-        <label for="email"><input type="email" id="email" name="email" placeholder="Email" required /></label>
-        <label for="message"><textarea name="message" id="message" rows="10" required placeholder="Message"></textarea></label>
+      <form class="contact-form monarcha-normal" action="#">
+        <label for="name"><input type="text" id="name" name="name" placeholder="Name" /></label>
+        <span class="contact-form-error" id="name-error"></span>
+        <label for="email"><input type="email" id="email" name="email" autocomplete placeholder="Email" /></label>
+        <span class="contact-form-error" id="email-error"></span>
+        <label for="message"><textarea name="message" id="message" rows="10" placeholder="Message"></textarea></label>
+        <span class="contact-form-error" id="message-error"></span>
         <input type="submit" value="Send">
       </form>
       <div class="contact-address">
