@@ -1,5 +1,4 @@
 import '../css/style.css';
-// import router from './modules/router.js';
 import CreateNav from './modules/mainNav';
 import TourSchedule from './modules/tourSchedule';
 import tourJSON from '../json/tourSchedule.json';
@@ -22,3 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const Validation = new FormValidation(form, fields);
   Validation.init();
 });
+
+// The footer stuff
+const footer = document.getElementById('footer');
+const copyrightYear = footer.querySelector('#copyright-year');
+const currentYear = new Date().getFullYear();
+copyrightYear.innerHTML = `2012 - ${currentYear}`;

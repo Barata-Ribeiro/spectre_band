@@ -1,0 +1,35 @@
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.negative-logo {
+  font-size: 8rem;
+  line-height: 1;
+  color: var(--tuatara-50);
+}
+
+.footer-sitemap {
+  justify-self: end;
+  text-align: right;
+  color: var(--tuatara-50);
+}
+
+.footer-sitemap h3 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer-list li + li {
+    margin-top: .5rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3.75rem;
+  color: var(--tuatara-50);
+}
