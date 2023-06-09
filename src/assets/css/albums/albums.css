@@ -1,5 +1,6 @@
 #albums {
   margin-top: 2rem;
+  padding-bottom: 3.75rem;
   background-color: var(--scarlet-600);
 }
 
@@ -35,7 +36,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.albums-more-link {
+.albums-link-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,9 +50,13 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+.albums-more-link {
+  display: block;
   font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
+  max-width: max-content;
   color: var(--tuatara-50);
 }
 
@@ -62,5 +67,11 @@
   height: 2px;
   background-color: var(--tuatara-50);
   margin-top: 0.625rem;
-  margin-bottom: 3.75rem;
+}
+
+.albums-more-link:hover {
+  color: var(--tuatara-800);
+}
+.albums-more-link:hover::after {
+  background-color: var(--tuatara-800);
 }
