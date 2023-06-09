@@ -1,0 +1,28 @@
+@media screen and (max-width: 786px) {
+  .header {
+    background: url('../../img/background.jpg') no-repeat center/cover;
+  }
+  .header-bandMembers {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.875rem 0 2rem 0;
+    font-size: 1.25em;
+  }
+  .header-logo {
+    width: 100%;
+    padding: 0 0.75rem;
+    height: max-content;
+  }
+  .header-nav {
+    padding: 2.25rem 0.75rem 1rem 0.75rem;
+  }
+  .header-nav-list {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 1em;
+  }
+  .header-nav img {
+    width: 10px;
+    height: 10px;
+  }
+}

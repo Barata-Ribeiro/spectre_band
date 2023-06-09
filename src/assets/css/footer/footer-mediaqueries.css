@@ -1,0 +1,18 @@
+@media screen and (max-width: 786px) {
+  .footer-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .negative-logo {
+    text-align: center;
+    font-size: 4.5rem;
+  }
+  .footer-sitemap {
+    margin-top: 2.5rem;
+    justify-self: center;
+    text-align: center;
+  }
+  .footer-sitemap h3 {
+    font-size: 1rem;
+  }
+}

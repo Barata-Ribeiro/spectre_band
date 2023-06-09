@@ -1,0 +1,39 @@
+@media screen and (max-width: 786px) {
+  #tour img {
+    height: 80%;
+    width: 80%;
+  }
+  .tour-title {
+    font-size: 3.5rem;
+  }
+  .tour-title p {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .tour-list-container {
+    margin-top: 2.5rem;
+  }
+  .tour-list {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .tour-list-item {
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    padding: 1.25rem 0 0 1.25rem;
+  }
+  .tour-list-item h3 {
+    font-size: 1.25rem;
+  }
+  .tour-list-item p {
+    font-size: 1rem;
+  }
+  .tour-list-item a {
+    font-size: 1rem;
+  }
+
+  .tour-button {
+    font-size: 1.25rem;
+  }
+}

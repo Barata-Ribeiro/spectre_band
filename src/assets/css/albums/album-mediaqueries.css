@@ -1,0 +1,27 @@
+@media screen and (max-width: 786px) {
+  #albums {
+    padding-bottom: 1.875rem;
+  }
+  #albums img {
+    width: 80%;
+    height: 80%;
+  }
+  .albums-title {
+    font-size: 3.5rem;
+  }
+  .albums-title p {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .albums-photos {
+    grid-template-columns: 1fr;
+  }
+
+  .albums-photos img {
+    justify-self: center;
+    align-self: center;
+    height: 100% !important;
+    width: 100% !important;
+  }
+}

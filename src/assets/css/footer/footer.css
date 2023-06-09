@@ -27,27 +27,6 @@
   margin-top: 0.5rem;
 }
 
-/* Vendor prefixes for older browser support */
-:-ms-input-placeholder {
-  color: var(--tuatara-400);
-}
-
-::-moz-placeholder {
-  color: var(--tuatara-400);
-  opacity: 1;
-}
-
-::-webkit-input-placeholder {
-  color: var(--tuatara-400);
-}
-
-:-moz-placeholder {
-  color: var(--tuatara-400);
-  opacity: 1;
-}
-
-/* End of vendor prefixes */
-
 .copyright {
   font-size: 1rem;
   line-height: 1;
