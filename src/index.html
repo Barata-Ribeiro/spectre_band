@@ -3,10 +3,24 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="#" />
+  <link rel="shortcut icon" href="./assets/img/spectre.svg" sizes="any" type="image/svg+xml">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Spectre</title>
+  <title>Spectre | Rock n' Roll!</title>
+  <meta name="description" content="Welcome to the Spectre home page! Learn about our band; tours, and our albums.">
+
+  <!-- Open Graph (og) meta tags -->
+  <meta property="og:title" content="Spectre | Rock n' Roll!" />
+  <meta property="og:description" content="Welcome to the Spectre home page! Learn about our band, tours, and our albums." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Barata-Ribeiro/spectre_band/public/og-image.jpg" />
+  <meta property="og:url" content="https://barata-ribeiro.github.io/spectre_band" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Spectre | Rock n' Roll!" />
+  <meta name="twitter:description" content="Welcome to the Spectre home page! Learn about our band, tours, and our albums." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Barata-Ribeiro/spectre_band/public/og-image.jpg" />
+  <meta name="twitter:url" content="https://barata-ribeiro.github.io/spectre_band" />
 </head>
 
 <body>
@@ -54,7 +68,7 @@
         <img src="./assets/img/whispers-of-the-night-album.png" alt="Whispers of the night Album" title="Whispers of the night">
         <img src="./assets/img/veins_of_fire_album.png" alt="Veins of Fire Album" title="Veins of Fire">
       </div>
-      <a class="albums-more-link monarcha-normal" target="_blank" rel="noopener noreferrer" href="/">Check the ones betwen...</a>
+      <div class="albums-link-container"><a class="albums-more-link monarcha-normal" target="_blank" rel="noopener noreferrer" href="/">Check the ones betwen...</a></div>
     </article>
   </section>
   <section id="about" class="container">
@@ -102,7 +116,7 @@
         <span class="contact-form-error" id="message-error"></span>
         <input type="submit" value="Send">
       </form>
-      <div class="contact-address">
+      <address class="contact-address">
         <ul class="contact-address-info monarcha-normal">
           <li>123 Rock Street</li>
           <li>Los Angeles, CA 90210</li>
@@ -124,7 +138,7 @@
               <img src="./assets/img/icons/youtube.svg" height="32" width="32" alt="YouTube">
             </a></li>
         </ul>
-      </div>
+      </address>
     </div>
   </section>
   <footer id="footer" class="container">
