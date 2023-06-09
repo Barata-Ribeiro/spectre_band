@@ -2,6 +2,7 @@
   "name": "spectre_band",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Barata-Ribeiro.github.io/spectre_band",
   "type": "module",
   "scripts": {
     "dev": "vite",

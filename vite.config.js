@@ -3,6 +3,7 @@ import eslintPlugin from 'vite-plugin-eslint';
 
 export default defineConfig({
   root: 'src',
+  base: '/spectre_band/',
   build: {
     outDir: '../dist',
   },
