@@ -1,5 +1,7 @@
 .footer-content {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -22,8 +24,29 @@
 }
 
 .footer-list li + li {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
+
+/* Vendor prefixes for older browser support */
+:-ms-input-placeholder {
+  color: var(--tuatara-400);
+}
+
+::-moz-placeholder {
+  color: var(--tuatara-400);
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: var(--tuatara-400);
+}
+
+:-moz-placeholder {
+  color: var(--tuatara-400);
+  opacity: 1;
+}
+
+/* End of vendor prefixes */
 
 .copyright {
   font-size: 1rem;
