@@ -1,3 +1,5 @@
+import separatorSVG from '../../../../public/assets/img/separators/nav_separator.svg';
+
 export default class CreateNav {
   constructor(navList, menuItems) {
     this.navList = document.querySelector(navList);
@@ -18,10 +20,10 @@ export default class CreateNav {
 
       if (index !== menuItems.length - 1) {
         const separator = document.createElement('li');
-        const object = document.createElement('object');
-        object.data = './assets/img/separators/nav_separator.svg';
-        object.setAttribute('aria-hidden', 'true');
-        separator.appendChild(object);
+        const sepImage = document.createElement('img');
+        sepImage.src = separatorSVG;
+        sepImage.setAttribute('aria-hidden', 'true');
+        separator.appendChild(sepImage);
         fragment.appendChild(separator);
       }
     });
