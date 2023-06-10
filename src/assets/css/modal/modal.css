@@ -1,0 +1,148 @@
+.modal {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-box {
+  background: var(--tuatara-950);
+  width: 80vw;
+  max-width: 37.5rem;
+  padding: 2.5rem;
+  border: 5px solid var(--scarlet-600);
+  box-shadow: 0 0 0 10px var(--tuatara-950);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.modal.active {
+  display: flex !important;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.active .terms-box {
+  -webkit-animation: modal 0.3s forwards;
+  animation: modal 0.3s forwards;
+}
+
+.terms-header,
+.terms-footer {
+  padding: 2.5rem 0;
+}
+
+.terms-header h2 {
+  color: var(--tuatara-50);
+  font-size: 3rem;
+}
+
+.terms-header p {
+  color: var(--tuatara-500);
+  font-size: 0.875rem;
+}
+
+.terms-header p:last-child {
+  color: var(--tuatara-50);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.terms-text {
+  padding: 0 2.5rem;
+  height: 25rem;
+  overflow-y: auto;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--tuatara-50);
+}
+
+.terms-text ol {
+  list-style: none;
+  counter-reset: item;
+}
+
+.terms-text ol li {
+  counter-increment: item;
+  color: var(--tuatara-300);
+  margin-bottom: 1.25rem;
+}
+
+.terms-text ol li:before {
+  content: counters(item, '.') '. ';
+  font-weight: bold;
+  color: var(--scarlet-600);
+}
+
+.terms-text li strong {
+  color: var(--tuatara-100);
+  font-size: 1.2rem;
+}
+
+.terms-text::-webkit-scrollbar {
+  width: 0.125rem;
+  background-color: var(--tuatara-800);
+}
+
+.terms-text::-webkit-scrollbar-thumb {
+  background-color: var(--scarlet-600);
+}
+
+.terms-footer h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding: 0 2.5rem;
+  color: var(--tuatara-600);
+}
+
+.terms-footer h4 span {
+  color: var(--scarlet-600);
+}
+
+.terms-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.red-btn {
+  background-color: var(--scarlet-600);
+  color: var(--tuatara-50);
+}
+
+.gray-btn {
+  background-color: var(--tuatara-800);
+  color: var(--tuatara-50);
+}

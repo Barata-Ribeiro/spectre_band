@@ -4,6 +4,15 @@ body {
   margin: 0 auto;
   background: var(--tuatara-950);
 }
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--tuatara-800);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scarlet-600);
+}
+
 .container {
   max-width: 940px !important;
   margin: 0 auto;

@@ -1,8 +1,9 @@
 import '../css/style.css';
-import CreateNav from './modules/mainNav';
-import TourSchedule from './modules/tourSchedule';
+import CreateNav from './modules/mainNav.js';
+import TourSchedule from './modules/tourSchedule.js';
 import tourJSON from '../json/tourSchedule.json';
-import FormValidation from './modules/formValidation';
+import FormValidation from './modules/formValidation.js';
+import Modal from './modules/termsModal.js';
 
 const nav = new CreateNav('.header-nav-list', [
   { text: 'tour', href: '#tour' },
@@ -21,6 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const Validation = new FormValidation(form, fields);
   Validation.init();
 });
+
+const modal = new Modal(
+  '[data-modal="open"]',
+  '[data-modal="close"]',
+  '[data-modal="declined"]',
+  '[data-modal="container"]',
+);
+modal.init();
 
 // The footer stuff
 const footer = document.getElementById('footer');

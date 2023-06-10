@@ -8,6 +8,7 @@
 @import url('./about/about.css');
 @import url('./contact/contact.css');
 @import url('./footer/footer.css');
+@import url('./modal/modal.css');
 
 @import url('./header/header-mediaqueries.css');
 @import url('./tour/tour-mediaqueries.css');
@@ -15,3 +16,4 @@
 @import url('./about/about-mediaqueries.css');
 @import url('./contact/contact-mediaqueries.css');
 @import url('./footer/footer-mediaqueries.css');
+@import url('./modal/modal-mediaqueries.css');

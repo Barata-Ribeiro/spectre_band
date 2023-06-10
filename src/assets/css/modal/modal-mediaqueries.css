@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .terms-box {
+    height: 95%;
+    width: 95%;
+    box-shadow: none;
+    padding: 1rem;
+  }
+  .terms-header,
+  .terms-footer {
+    padding: 1rem 0;
+  }
+  .terms-text {
+    padding: 0 1rem;
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .terms-box {
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    padding: 1rem;
+  }
+  .terms-header,
+  .terms-footer {
+    padding: 1rem 0;
+  }
+  .terms-header h2 {
+    text-align: center;
+  }
+  .terms-header p {
+    text-align: center;
+  }
+  .terms-text {
+    padding: 0 1rem;
+    height: 60%;
+  }
+  .terms-footer h4 {
+    padding: 0 1rem;
+  }
+}
