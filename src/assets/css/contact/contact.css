@@ -31,9 +31,7 @@
 }
 
 .contact-form {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   -ms-justify-content: center;
   justify-content: center;
@@ -64,6 +62,30 @@
   border: 1px solid var(--tuatara-600);
   padding: 0.5rem;
   border-radius: 8px;
+}
+
+.contact-form input[type='text']::-webkit-input-placeholder,
+.contact-form input[type='email']::-webkit-input-placeholder,
+.contact-form textarea::-webkit-input-placeholder {
+  color: var(--tuatara-400);
+}
+
+.contact-form input[type='text']::-moz-placeholder,
+.contact-form input[type='email']::-moz-placeholder,
+.contact-form textarea::-moz-placeholder {
+  color: var(--tuatara-400);
+}
+
+.contact-form input[type='text']:-ms-input-placeholder,
+.contact-form input[type='email']:-ms-input-placeholder,
+.contact-form textarea:-ms-input-placeholder {
+  color: var(--tuatara-400);
+}
+
+.contact-form input[type='text']::-ms-input-placeholder,
+.contact-form input[type='email']::-ms-input-placeholder,
+.contact-form textarea::-ms-input-placeholder {
+  color: var(--tuatara-400);
 }
 
 .contact-form input[type='text']::placeholder,
@@ -118,7 +140,6 @@
 }
 
 .contact-address-social {
-  display: -ms-flexbox;
   display: flex;
   -ms-justify-content: flex-end;
   justify-content: flex-end;

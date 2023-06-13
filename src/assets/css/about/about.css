@@ -1,16 +1,7 @@
 #about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-top: 3.75rem;
 }
@@ -20,18 +11,9 @@
 }
 
 .story-title1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   gap: 2.18rem;
 }
@@ -42,7 +24,6 @@
 }
 
 .story-title1 > .story-sep2 {
-  -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
 
@@ -51,6 +32,7 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 5.375rem;
   column-gap: 5.375rem;
   max-width: 820px;
   margin-top: 2rem;
@@ -81,4 +63,30 @@
 
 .story-sep4 {
   display: none;
+}
+
+/* FIRST LETTER */
+.story-column1 .first-letter:first-letter {
+  color: var(--scarlet-700);
+  font-family: 'sabbath-black', serif;
+  font-weight: 400;
+  font-style: normal;
+  float: left;
+  font-size: 5rem;
+  line-height: 0.75;
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.5rem 0 0.25rem;
+}
+
+@supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
+  .story-column1 .first-letter:first-letter {
+    float: none;
+    font-size: initial;
+    line-height: normal;
+    margin-top: 0;
+    padding: 0;
+    initial-letter: 3;
+    -webkit-initial-letter: 3;
+    padding: 0 0.625rem 0 0;
+  }
 }

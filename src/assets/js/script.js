@@ -16,6 +16,23 @@ nav.init();
 const tourSchedule = new TourSchedule('.tour-list');
 tourSchedule.init(tourJSON);
 
+// The tour button
+const tourLink = document.querySelector('[data-link="shows"]');
+tourLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  alert('This would call upon the list of shows. \n But it is not yet implemented. Probably never.');
+});
+
+// The albums button
+const albumsLink = document.querySelector('[data-link="albums"]');
+albumsLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  alert(
+    'This would call upon the list of albums between the first and last. \n But it is not yet implemented. Probably never.',
+  );
+});
+
+// The contact stuff
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('.contact-form');
   const fields = ['name', 'email', 'message'];
@@ -23,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   Validation.init();
 });
 
+// The modal way of handling things
 const modal = new Modal(
   '[data-modal="open"]',
   '[data-modal="close"]',

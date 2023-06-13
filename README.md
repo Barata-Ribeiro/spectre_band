@@ -1,12 +1,16 @@
 # Spectre Band
 
-Welcome to the repository for the official website of Spectre, a fictional rock band. This project showcases an engaging and essential website, leveraging contemporary web technologies, including HTML5, CSS3, and vanilla JavaScript. Primarily, this endeavor served as a personal hands-on training experience to sharpen my skills in HTML, CSS, and JavaScript. Moreover, the project seamlessly integrates Vite.js, a robust build tool known for accelerating and streamlining the development process of cutting-edge web projects.
+Welcome to the repository for the official website of Spectre, a fictional rock band. This project showcases an engaging
+and essential website, leveraging contemporary web technologies, including HTML5, CSS3, and vanilla JavaScript.
+Primarily, this endeavor served as a personal hands-on training experience to sharpen my skills in HTML, CSS, and
+JavaScript. Moreover, the project seamlessly integrates Vite.js, a robust build tool known for accelerating and
+streamlining the development process of cutting-edge web projects.
 
 ## 👨‍💻 Demo
 
-_demo soon_
+[Click here](https://barata-ribeiro.github.io/spectre_band/) to see a live demo of the website.
 
-_screenshot soon_
+![Spectre Band](./public/screenshot.gif)
 
 ## 🚀 Built With
 

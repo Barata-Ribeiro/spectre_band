@@ -11,6 +11,8 @@
   .header-logo {
     width: 100%;
     padding: 0 0.75rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
   }
   .header-nav {

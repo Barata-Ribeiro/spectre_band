@@ -68,6 +68,21 @@ export default class FormValidation {
     }
   }
 
+  showFormData() {
+    const nameField = document.querySelector('#name');
+    const emailField = document.querySelector('#email');
+    const messageField = document.querySelector('#message');
+
+    const name = nameField.value;
+    const email = emailField.value;
+    const message = messageField.value;
+
+    const alertMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message} \n\n 
+    Thank you for contacting us. But this is all fake. The form doesn't work! \n 
+    And yes... no preventing default. Get ready for RELOAD!`;
+    alert(alertMessage);
+  }
+
   submitValidation() {
     // Submit the form
     this.form.addEventListener('submit', (event) => {
@@ -82,6 +97,9 @@ export default class FormValidation {
         const input = document.querySelector(`#${field}`);
         return input.classList.contains('form-input-error');
       });
+
+      // If there are no errors, show the form data
+      if (!errors) this.showFormData();
 
       // If there are errors, prevent the form submission
       if (errors) event.preventDefault();
